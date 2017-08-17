@@ -4,7 +4,7 @@ server:
 spring:
     cloud:
         config:
-            allowOverride: true
+            allowOverride: false
             failFast: true
             overrideNone: false
             overrideSystemProperties: false
