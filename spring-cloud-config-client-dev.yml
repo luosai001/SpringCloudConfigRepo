@@ -6,8 +6,8 @@ spring:
         config:
             allowOverride: true
             failFast: true
-            overrideNone: true
-            overrideSystemProperties: false
+            overrideNone: true #覆盖非系统属性
+            overrideSystemProperties: false #覆盖系统属性
 
 
-foo: i am foo,but i changed!
+foo: i am foo,but i changed! changed!changed!
