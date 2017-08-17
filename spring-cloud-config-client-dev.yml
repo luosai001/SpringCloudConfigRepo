@@ -1,5 +1,13 @@
 server:
   port: 8003
 
+spring:
+    cloud:
+        config:
+            allowOverride: true
+            failFast: true
+            overrideNone: false
+            overrideSystemProperties: false
+
 
 foo: i am foo,but i changed!
