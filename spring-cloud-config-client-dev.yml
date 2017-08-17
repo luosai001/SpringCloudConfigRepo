@@ -2,4 +2,4 @@ server:
   port: 8003
 
 
-foo: i am foo,but i changed!
+foo: i am foo,but i changed,too!
